@@ -40,7 +40,7 @@ iot_data_platform/
 ## 安装步骤
 1. **克隆项目**：
    ```bash
-   git clone <你的仓库地址>
+   git clone git@github.com:Xuan-Idea/iot_data_platform.git
    cd iot_data_platform
    ```
 
@@ -67,7 +67,7 @@ iot_data_platform/
 
      CREATE EXTENSION postgis;
      ```
-   - 创建 `device_data` 表（根据需要）：
+   - 创建 `device_data` 表（具体见sql）：
      ```sql
      CREATE TABLE public.device_data (
          device_id TEXT,
